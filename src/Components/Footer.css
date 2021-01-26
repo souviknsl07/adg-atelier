@@ -1,0 +1,52 @@
+.footer {
+  width: 100%;
+  background: #333333;
+  color: white;
+  height: 38vh;
+  text-align: center;
+  padding: 40px;
+}
+
+.up__icon {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 149);
+  position: fixed;
+  bottom: 3vh;
+  right: 2.5vw;
+  z-index: 1;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  column-gap: 5vh;
+  margin-bottom: 5vh;
+}
+
+.footer__icons > a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: center;
+  column-gap: 3vh;
+}
+
+.footer__contacts > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 780px) {
+  .footer {
+    font-size: small;
+  }
+}
