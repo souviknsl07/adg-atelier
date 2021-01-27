@@ -9,44 +9,54 @@ function Banner() {
           <img
             style={{ height: "88vh" }}
             className="d-block w-100"
-            src="https://iso.500px.com/wp-content/uploads/2014/06/W4A2827-1.jpg"
+            src="slidea.jpg"
             alt="First slide"
           />
           <Carousel.Caption
             style={{
               top: 0,
-              marginTop: "25vh",
+              marginTop: "22vh",
+              // color: "crimson",
             }}
           >
-            <h3 style={{ marginLeft: "1vw" }}>ADG_ATELIER</h3>
-            <p>समस्या हैं सभी जानते हैं, उनका उपाय खोजना भी हमारा दायित्व है</p>
+            <img
+              src="logo.png"
+              alt=""
+              style={{ height: "100px", width: "100px", marginBottom: "1vh" }}
+            />
+            <h3 style={{ marginLeft: "1vw", fontSize: "2rem" }}>ADG_ATELIER</h3>
+            <p style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
+              <i>
+                समस्या हैं सभी जानते हैं, उनका उपाय खोजना भी हमारा दायित्व है
+              </i>
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             style={{ height: "88vh" }}
             className="d-block w-100"
-            src="https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg"
+            src="slideb.jpg"
             alt="Second slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
             style={{ height: "88vh" }}
             className="d-block w-100"
-            src="https://i.pinimg.com/originals/ca/ab/f8/caabf820ac0474503bff2e196342ba77.jpg"
+            src="slidec.jpg"
             alt="Third slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
     </div>

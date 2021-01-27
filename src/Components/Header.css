@@ -19,6 +19,20 @@
   cursor: pointer;
 }
 
+.header__button {
+  text-transform: uppercase;
+  background-color: #05a081;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none !important;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: small;
+  font-weight: 500;
+}
+
 .link {
   text-decoration: none !important;
   color: white;
@@ -45,7 +59,7 @@
 }
 
 .header__links {
-  margin-right: 2vw;
+  margin-right: 1vw;
 }
 
 .header__links > span {

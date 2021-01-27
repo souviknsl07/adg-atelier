@@ -18,7 +18,7 @@ function Header({ drawerClickHandler }) {
             history.push("/");
             setIsActive("home");
           }}
-          src="http://ajay-adg-atelier.website2.me/upload/1292578/images/02050DD8366B7487.jpg"
+          src="logo.png"
           alt=""
         />
       </div>
@@ -57,24 +57,28 @@ function Header({ drawerClickHandler }) {
           <span>Our Vision</span>
         </a>
 
-        <Link
+        <a
           className={`link ${isActive === "blogs" && "link--active"}`}
           onClick={(e) => {
             setIsActive("blogs");
           }}
-          to="#"
+          href="https://adgatelier.blogspot.com/"
+          target="_blank"
+          rel="noreferrer"
         >
           <span>Blogs</span>
-        </Link>
+        </a>
 
         <Link
-          className={`link ${isActive === "contact" && "link--active"}`}
+          // className={`link ${isActive === "contact" && "link--active"}`}
           onClick={(e) => {
             setIsActive("contact");
           }}
           to="/contact"
         >
-          <span>Contact Us</span>
+          <button className="header__button">
+            <span>Contact Us</span>
+          </button>
         </Link>
       </div>
     </nav>
